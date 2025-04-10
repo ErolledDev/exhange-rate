@@ -1,0 +1,112 @@
+/* Global styles for the currency exchange website */
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Base styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Custom focus styles */
+*:focus {
+  outline: none;
+}
+
+/* Animation for currency swap */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: rotate 1s linear infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Fade in and out animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 3s ease-in-out forwards;
+}
+
+/* Chart tooltip styles */
+.chart-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 10;
+  transform: translate(-50%, -100%);
+}
+
+.chart-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+}

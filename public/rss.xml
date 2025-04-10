@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global Exchange - Currency Updates</title>
+    <link>https://globalexchange.com/</link>
+    <description>Get the latest currency exchange rates, currency news, and market updates from Global Exchange.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jun 2023 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://globalexchange.com/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://globalexchange.com/images/logo.png</url>
+      <title>Global Exchange</title>
+      <link>https://globalexchange.com/</link>
+    </image>
+    
+    <item>
+      <title>Major Currency Update: USD Strengthens Against EUR and GBP</title>
+      <link>https://globalexchange.com/news/usd-strengthens</link>
+      <pubDate>Wed, 15 Jun 2023 10:30:00 GMT</pubDate>
+      <guid>https://globalexchange.com/news/usd-strengthens</guid>
+      <description>The US Dollar strengthened against major currencies following the Federal Reserve's interest rate decision. EUR/USD dropped to 1.08, while GBP/USD fell to 1.25.</description>
+      <category>Market Updates</category>
+    </item>
+    
+    <item>
+      <title>Currency Volatility Expected with Upcoming Economic Data</title>
+      <link>https://globalexchange.com/news/volatility-forecast</link>
+      <pubDate>Tue, 14 Jun 2023 14:15:00 GMT</pubDate>
+      <guid>https://globalexchange.com/news/volatility-forecast</guid>
+      <description>Currency markets are bracing for increased volatility with several key economic indicators scheduled for release this week, including inflation data and central bank announcements.</description>
+      <category>Market Analysis</category>
+    </item>
+    
+    <item>
+      <title>New Guide: Understanding Currency Correlation in Your Portfolio</title>
+      <link>https://globalexchange.com/guide/currency-correlation</link>
+      <pubDate>Mon, 13 Jun 2023 09:45:00 GMT</pubDate>
+      <guid>https://globalexchange.com/guide/currency-correlation</guid>
+      <description>Our new comprehensive guide explains how currency correlations affect investment portfolios and how to use this knowledge to better manage risk.</description>
+      <category>Educational</category>
+    </item>
+    
+    <item>
+      <title>Global Exchange Adds Support for 10 New Currencies</title>
+      <link>https://globalexchange.com/news/new-currencies-added</link>
+      <pubDate>Fri, 10 Jun 2023 16:20:00 GMT</pubDate>
+      <guid>https://globalexchange.com/news/new-currencies-added</guid>
+      <description>We've expanded our coverage to include 10 additional currencies, including the Moroccan Dirham (MAD), Kazakhstani Tenge (KZT), and Uruguayan Peso (UYU).</description>
+      <category>Platform Updates</category>
+    </item>
+    
+    <item>
+      <title>Historical Analysis: How Major Economic Events Affected Currency Values</title>
+      <link>https://globalexchange.com/analysis/economic-events-impact</link>
+      <pubDate>Wed, 8 Jun 2023 11:30:00 GMT</pubDate>
+      <guid>https://globalexchange.com/analysis/economic-events-impact</guid>
+      <description>Our analysis examines how significant economic events over the past decade have influenced major currency pairs, with insights for investors and traders.</description>
+      <category>Market Analysis</category>
+    </item>
+  </channel>
+</rss>
