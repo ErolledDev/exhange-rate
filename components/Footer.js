@@ -173,53 +173,11 @@ function Footer({ setActivePage }) {
                 <i className="fas fa-headset mt-1 mr-3 text-blue-400" data-id="u25jj7ef3" data-path="components/Footer.js"></i>
                 <span data-id="9azfos9pn" data-path="components/Footer.js">Customer Support:<br data-id="ygijuio33" data-path="components/Footer.js" />Mon-Fri 9am-5pm EST</span>
               </div>
-              
-              <div className="pt-4" data-id="0j20hq0l5" data-path="components/Footer.js">
-                <img
-                  src="https://usapi.hottask.com/autodev/Image/GetPlaceholder/250x40/e2e8f0/1a202c?text=Payment+Methods+Accepted"
-                  alt="Payment Methods Accepted"
-                  className="rounded" data-id="9hfef000n" data-path="components/Footer.js" />
-
-              </div>
+            
             </div>
           </div>
         </div>
-        
-        {/* App Download */}
-        <div className="mt-12 p-6 bg-gray-700 rounded-lg" data-id="llkrdiqoi" data-path="components/Footer.js">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" data-id="c7kamrkg2" data-path="components/Footer.js">
-            <div data-id="6bz80ozqk" data-path="components/Footer.js">
-              <h3 className="text-xl font-bold text-white mb-2" data-id="p5od7l77h" data-path="components/Footer.js">Download Our Mobile App</h3>
-              <p className="text-gray-300 mb-4" data-id="2rxn6q3ts" data-path="components/Footer.js">
-                Get currency rates on the go with our free mobile app. Available for iOS and Android.
-              </p>
-              <div className="flex flex-wrap gap-4" data-id="evecd3hvo" data-path="components/Footer.js">
-                <a href="#" className="flex items-center bg-black hover:bg-gray-900 text-white px-4 py-2 rounded transition-colors" data-id="2h160x3fb" data-path="components/Footer.js">
-                  <i className="fab fa-apple text-2xl mr-2" data-id="f6ljzsmid" data-path="components/Footer.js"></i>
-                  <div data-id="ix27bo0ve" data-path="components/Footer.js">
-                    <div className="text-xs" data-id="qptw7482b" data-path="components/Footer.js">Download on the</div>
-                    <div className="text-sm font-semibold" data-id="0pattyxyg" data-path="components/Footer.js">App Store</div>
-                  </div>
-                </a>
-                <a href="#" className="flex items-center bg-black hover:bg-gray-900 text-white px-4 py-2 rounded transition-colors" data-id="gicij8pf4" data-path="components/Footer.js">
-                  <i className="fab fa-google-play text-2xl mr-2" data-id="0c06u77x0" data-path="components/Footer.js"></i>
-                  <div data-id="58q7c00s8" data-path="components/Footer.js">
-                    <div className="text-xs" data-id="wnqzdz90n" data-path="components/Footer.js">Get it on</div>
-                    <div className="text-sm font-semibold" data-id="hw31eyth4" data-path="components/Footer.js">Google Play</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="flex justify-center md:justify-end" data-id="cvh1tyr50" data-path="components/Footer.js">
-              <img
-                src="https://usapi.hottask.com/autodev/Image/GetPlaceholder/300x180/e2e8f0/1a202c?text=App+Screenshot"
-                alt="Mobile App"
-                className="rounded-lg shadow-lg" data-id="emk1xyk90" data-path="components/Footer.js" />
-
-            </div>
-          </div>
-        </div>
-        
+               
         <div className="mt-12 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center" data-id="ozuifn17i" data-path="components/Footer.js">
           <p className="text-gray-400 text-sm" data-id="2ugzy3db4" data-path="components/Footer.js">
             &copy; {currentYear} Global Exchange. All rights reserved.
